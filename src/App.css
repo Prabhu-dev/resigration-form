@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+#regiration-form,h1,h2 {
+  text-align: center;
+  margin: 2%;
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.form-input{
+  width: 99%;
+  background-color: lightgreen;
+  border: 2px solid black;
+  margin-top: 2%;
+  font-size: 1rem;
+  padding: 5px;
+  font-family:'Ubuntu';
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.form-input:focus{
+  outline: none;
+}
+
+.form-input::placeholder{
+  color: black;
+}
+
+#gender-dropdown{
+  font-size: 1rem;
+  margin-top: 2%;
+  width: 100%;
+  padding: 5px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family:'Ubuntu';
+  font-weight: bold;
+}
+
+#course-dropdown{
+  font-size: 1rem;
+  margin-top: 2%;
+  width: 100%;
+  padding: 5px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family:'Ubuntu';
+  font-weight: bold;
+}
+
+#location-dropdown{
+  font-size: 1rem;
+  margin-top: 2%;
+  width: 100%;
+  padding: 5px;
+  background-color: lightgreen;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-family:'Ubuntu';
+  font-weight: bold;
+}
+
+.form-buttons-section{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5%;
+}
+
+.form-buttons{
+  margin-top: 2%;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px)  {
+  #gender-dropdown{
+    margin-top: 10%;
+    width: 96%;
+  }
+
+  #course-dropdown{
+    margin-top: 10%;
+    width: 96%;
+  }
+
+  #location-dropdown{
+    margin-top: 10%;
+    width: 96%;
+  }
+
+  .form-input {
+    margin-top: 10%;
+    width: 92%;
+  }
+
+  .form-buttons-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+    row-gap: 5%;
+    margin-bottom: 5%;
+  }
+
+  .form-buttons{
+    width: 100%;
+    padding: 5px;
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+}
