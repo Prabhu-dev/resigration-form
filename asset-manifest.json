@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/resigration-form/static/css/main.2a3eed04.css",
+    "main.js": "/resigration-form/static/js/main.c5d73830.js",
+    "static/js/787.14ac3ec0.chunk.js": "/resigration-form/static/js/787.14ac3ec0.chunk.js",
+    "index.html": "/resigration-form/index.html",
+    "main.2a3eed04.css.map": "/resigration-form/static/css/main.2a3eed04.css.map",
+    "main.c5d73830.js.map": "/resigration-form/static/js/main.c5d73830.js.map",
+    "787.14ac3ec0.chunk.js.map": "/resigration-form/static/js/787.14ac3ec0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a3eed04.css",
+    "static/js/main.c5d73830.js"
+  ]
+}
